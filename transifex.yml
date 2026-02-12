@@ -1,0 +1,11 @@
+filters:
+- filter_type: file
+  file_format: KEYVALUEJSON
+  source_file: source/test1.json
+  source_language: en
+  translation_files_expression: 'translations/test1_<lang>.json'
+- filter_type: file
+  file_format: KEYVALUEJSON
+  source_file: source/test2.json
+  source_language: en
+  translation_files_expression: 'translations/test2_<lang>.json'

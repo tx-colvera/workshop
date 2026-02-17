@@ -1,7 +1,7 @@
 {
   "id": "12345",
   "name": "Usuario de prueba",
-  "email": "usuario.prueba@ejemplo.com",
+  "email": "test.user@example.com",
   "active": true,
   "role": "administración",
   "description": "usuario administrador"

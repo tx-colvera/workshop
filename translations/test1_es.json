@@ -3,6 +3,6 @@
   "name": "Usuario de prueba",
   "email": "test.user@example.com",
   "active": true,
-  "role": "administración",
+  "role": "admin",
   "description": "usuario administrador"
 }

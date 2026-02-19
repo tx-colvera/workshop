@@ -4,5 +4,6 @@
   "email": "test.user@example.com",
   "active": true,
   "role": "admin",
-  "newfield": "test"
+  "newfield": "test",
+  "newmodification": "string test"
 }

@@ -3,6 +3,5 @@
   "name": "Test User",
   "email": "test.user@example.com",
   "active": true,
-  "role": "admin",
-  "newfield": "test"
+  "role": "admin"
 }

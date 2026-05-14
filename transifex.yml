@@ -1,7 +1,7 @@
 filters:
-- filter_type: dir
-  file_format: KEYVALUEJSON
-  source_file_extension: json
-  source_language: en
-  source_file_dir: source/
-  translation_files_expression: 'Translations/<lang>/'
+  - filter_type: dir
+    file_format: HTML
+    source_language: en
+    source_file_extension: html
+    source_file_dir: comms_templates/lyft/emails/en
+    translation_files_expression: 'comms_templates/lyft/emails/<lang>/'

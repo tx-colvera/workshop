@@ -1,0 +1,47 @@
+{% extends "layouts/generic_layout.j2" %}
+
+{% set sub_header = "Confirm your email address" %}
+
+{% block content %}
+
+<div>
+<tr>
+<td align="left" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;">
+    <div style="font-family:Open Sans, -apple-system, BlinkMacSystemFont, sans-serif;font-size:17px;font-weight:400;line-height:1.4;text-align:left;color:#1D0C17;">Hola, {{ name.capitalize() }}:</div>
+  </td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;">
+    <div style="font-family:Open Sans, -apple-system, BlinkMacSystemFont, sans-serif;font-size:17px;font-weight:400;line-height:1.4;text-align:left;color:#1D0C17;">Gracias por registrarte en Lyft
+      Direct.</div>
+  </td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;">
+    <div style="font-family:Open Sans, -apple-system, BlinkMacSystemFont, sans-serif;font-size:17px;font-weight:400;line-height:1.4;text-align:left;color:#1D0C17;">Haz clic en el botón de abajo para
+      verificar tu dirección de correo electrónico. Este enlace caduca en 15 minutos.</div>
+  </td>
+</tr>
+<tr>
+<td align="center" style="font-size:0px;padding:0;padding-bottom:32px;word-break:break-word;">
+    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;"><tbody><tr>
+<td align="center" bgcolor="#820076" role="presentation" style="border:none;border-radius:80px;cursor:auto;mso-padding-alt:13.5px 20px;background:#820076;" valign="middle"><a href="{{ new_onboard_dl_url }}" style="display:inline-block;background:#820076;color:#ffffff;font-family:Open Sans, -apple-system, BlinkMacSystemFont, sans-serif;font-size:15px;font-weight:600;line-height:1;margin:0;text-decoration:none;text-transform:none;padding:13.5px 20px;mso-padding-alt:0px;border-radius:80px;" target="_blank"> Verificar dirección de correo electrónico </a></td>
+        </tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td align="left" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;">
+    <div style="font-family:Open Sans, -apple-system, BlinkMacSystemFont, sans-serif;font-size:17px;font-weight:400;line-height:1.4;text-align:left;color:#1D0C17;">Si no inició esta solicitud, comuníquese de inmediato con el servicio de atención al cliente desde la aplicación Lyft Direct.</div>
+  </td>
+</tr>
+
+{% endblock content %}
+
+{% block footer %}
+La tarjeta de débito Lyft Direct Business Mastercard<sup>&reg;</sup> es emitida por Stride Bank, N.A., miembro de la FDIC, conforme a una licencia de
+Mastercard International. Su cuenta Lyft Direct está diseñada para uso comercial y no debe utilizarse para fines personales,
+familiares o domésticos. Se aplican límites máximos de saldo de cuenta y otros límites, términos y condiciones. Puede haber
+casos en los que la financiación se retrase. Las categorías y los montos de las recompensas están sujetos a cambios sin previo aviso. Consulte el Acuerdo de cuenta de Stride Bank,
+los Términos del programa Payfare y el Acuerdo E-SIGN, disponibles en https://lyft.com/driver/direct-debit-card para
+obtener detalles que incluyen tarifas de cuenta, límites de transacciones y restricciones debido a la naturaleza comercial de la cuenta Lyft Direct. Para consultar la Política de privacidad de Payfare, visite https://corp.payfare.com/privacy-policy/.
+{% endblock footer %}</div>

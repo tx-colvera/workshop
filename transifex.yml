@@ -1,6 +1,6 @@
 filters:
   - filter_type: dir
-    file_format: HTML
+    file_format: HTML_FRAGMENT
     source_language: en
     source_file_extension: html
     source_file_dir: comms_templates/lyft/emails/en

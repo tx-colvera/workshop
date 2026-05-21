@@ -1,0 +1,70 @@
+{% extends "layouts/generic_layout.j2" %}
+
+{% block header_text %}Your {{ program_name }} PIN has been updated{% endblock header_text %}
+
+{% block content %}
+<div>
+<tr>
+<td align="left">
+    <p style="font-family:{{ primary_font_family }};font-size:16px;line-height:1.25;font-weight:400;color:#0E0E0E;">Hi, {{changed_by_name.capitalize()}},</p>
+    </td>
+</tr>
+<tr>
+<td align="left">
+    <p style="font-family:{{ primary_font_family }};font-size:16px;line-height:1.25;font-weight:400;color:#0E0E0E;">The PIN for your {{program_name}} was updated on <a href="{{website}}" target="_blank">{{website}}</a> OR from the {{app_name}} mobile app on {{change_date}} at {{change_time}}.</p>
+    </td>
+</tr>
+<tr>
+<td align="left">
+    <p style="font-family:{{ primary_font_family }};font-size:16px;line-height:1.25;font-weight:400;color:#0E0E0E;">If you did not initiate this change, please contact customer support at {{support_phone_number}} immediately.</p>
+    </td>
+</tr>
+<tr>
+<td align="left">
+    <p style="font-family:{{ primary_font_family }};font-size:16px;line-height:1.25;font-weight:400;color:#0E0E0E;">Thank you for choosing {{card_name}}.</p>
+    </td>
+</tr>  
+{% endblock content %}
+
+{% block pre_footer %}
+<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#F9F9F9" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+<div style="background:#F9F9F9;background-color:#F9F9F9;margin:0px auto;max-width:700px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#F9F9F9;background-color:#F9F9F9;width:100%;"><tbody><tr>
+<td style="direction:ltr;font-size:0px;padding:0;padding-bottom:36px;padding-top:24px;text-align:center;">
+            <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+            <div style="margin:0px auto;max-width:700px;">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr>
+<td style="direction:ltr;font-size:0px;padding:0;padding-left:25px;padding-right:25px;text-align:center;">
+                    <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:650px;" ><![endif]-->
+                    <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr>
+<td style="vertical-align:top;padding:0;padding-right:15px;padding-left:15px;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody>
+<tr>
+<td align="center">
+                                    <p style="font-family:{{ primary_font_family }};font-size:16px;line-height:1.25;font-weight:400;color:#0E0E0E;">We are here for you - please do not hesitate to contact the {{card_name}} customer support team.</p>
+                                    </td>
+                                </tr>
+<tr><td style="height:24px;line-height:24px;font-size:24px;">&nbsp;</td></tr>
+<tr>
+<td align="center">
+                                    <table role="presentation" style="width:100%;max-width:342px;margin:0 auto;"><tr>
+<td align="center" valign="middle" style="background:{{ primary_color }};border-radius:8px;text-align:center;"><a href="tel:{{support_phone_number}}" style="display:inline-block;background:{{ primary_color }};color:#FFFFFF !important;font-family:{{ primary_font_family }};font-size:18px;font-weight:500;line-height:1;text-decoration:none;padding:15.5px 20px;border-radius:8px;">Contact support</a></td>
+                                        </tr></table>
+</td>
+                                </tr>
+</tbody></table>
+</td>
+                            </tr></tbody></table>
+</div>
+                    <!--[if mso | IE]></td></tr></table><![endif]-->
+                    </td>
+                </tr></tbody></table>
+</div>
+        </td>
+        </tr></tbody></table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+{% endblock pre_footer %}
+
+{% block legal_terms %}{{short_legal_terms}}{% endblock legal_terms %}</div>

@@ -3,9 +3,9 @@ filters:
     # all supported i18n types: https://docs.transifex.com/formats
     file_format: KEYVALUEJSON
     source_language: pt-BR
-    source_file: src/languages/pt-BR.json
+    source_file: source/pt-BR.json
     # path expression to translation files, must contain <lang> placeholder
-    translation_files_expression: src/languages/<lang>.json
+    translation_files_expression: Translations/languages/<lang>.json
 settings:
    language_mapping:
        pt_BR: pt-BR

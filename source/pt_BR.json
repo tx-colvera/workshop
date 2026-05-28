@@ -1,24 +1,5 @@
 {
-  "buyer_details": {
-    "account_details": "Dados da conta",
-    "address_details": "Dados do endereço",
-    "access_email": "Email de acesso",
-    "purchase_email": "Email de compra",
-    "access_email_tooltip": "Email atual do comprador na Hotmart.",
-    "access_email_tooltip_2": "Email atual do comprador para acessar a Hotmart.",
-    "purchase_email_tooltip": "Email utilizado no momento da compra na página de pagamento.",
-    "title": "Detalhes do comprador"
-  },
-  "cart_abandonment": {
-    "empty_state": {
-      "text_1": "Você pode alterar filtros: se houver registros, eles aparecerão aqui para que você possa tentar recuperar essas vendas.",
-      "title": "Tudo certo! Sem registros de abandono de carrinho"
-    },
-    "error_state": {
-      "button": "Atualizar página",
-      "text": "Atualize a página ou tente novamente mais tarde.",
-      "title": "Tivemos um erro por aqui e não conseguimos mostrar o relatório"
-    },
+  
     "helper_sidebar": {
       "body_1": "No relatório de abandono de carrinho, você tem acesso a uma lista dos leads que iniciaram o processo de compra, mas desistiram antes de finalizá-lo.",
       "body_2": "Confira informações detalhadas, como o e-mail do comprador e o estado do checkout no momento do abandono (oferta).",

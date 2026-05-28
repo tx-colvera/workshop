@@ -1,12 +1,8 @@
 filters:
+  - filter_type: dir
+    file_format: HTML_FRAGMENT
+    source_language: en
+    source_file_extension: html
+    source_file_dir: comms_templates/lyft/emails/en
+    translation_files_expression: 'comms_templates/lyft/emails/<lang>/'
 
-
-- filter_type: file
-    file_format: KEYVALUEJSON
-    source_language: pt-BR
-    source_file: source/pt-BR.json
-    translation_files_expression: src/languages/<lang>.json
-settings:
-   language_mapping:
-       pt_BR: pt-BR
-       es: es

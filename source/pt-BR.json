@@ -1,5 +1,7 @@
 {
-  
+  "page_description": "Lista de compradores que abandonaram seus produtos no momento da compra. Acesse as informações preenchidas no checkout e entre em contato para recuperar vendas.",
+    "title": "Abandono de carrinho (Recuperação de compras)",
+    "registers_label": "registros de abandono",
   "cancellation_reason": {
     "empty_state": {
       "title": "Tudo certo! Seus produtos não têm vendas recusadas",

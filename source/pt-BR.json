@@ -1,5 +1,13 @@
 {
-  
+  "helper_sidebar": {
+      "body_1": "No relatório de abandono de carrinho, você tem acesso a uma lista dos leads que iniciaram o processo de compra, mas desistiram antes de finalizá-lo.",
+      "body_2": "Confira informações detalhadas, como o e-mail do comprador e o estado do checkout no momento do abandono (oferta).",
+      "body_3": "Com este relatório, você pode implementar estratégias de recuperação e incentivar esses potenciais clientes a concluírem suas compras, seja com novas ofertas, cupons de desconto ou lembretes do seu produto",
+      "body_4": "Os abandonos são registrados quando comprador preenche pelo menos o e-mail ou o telefone no checkout. Sem uma dessas informações de identificação, o abandono não é registrado no relatório.",
+      "body_5": "<0>Importante:</0> o registro de abandono é feito por tentativa de compra. Por isso, é útil cruzar essas informações com os dados dos compradores no relatório de vendas para uma análise mais completa.",
+      "faq_link": "https://help.hotmart.com/pt-br/article/216440947/o-que-e-e-como-efetuar-a-recuperacao-de-compras-",
+      "title": "Como funciona o relatório Abandono de carrinho?"
+    },
   "cancellation_reason": {
     "empty_state": {
       "title": "Tudo certo! Seus produtos não têm vendas recusadas",

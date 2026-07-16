@@ -42,3 +42,7 @@ msgstr ""
 #: src/cart.py:14
 msgid "Your shopping cart is full."
 msgstr ""
+
+#: src/cart.py:14
+msgid "Your shopping cart is about to expire."
+msgstr ""

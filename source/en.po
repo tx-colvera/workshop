@@ -1,0 +1,40 @@
+
+#: src/login.py:10
+msgid "Welcome back!"
+msgstr ""
+
+#: src/login.py:15
+msgid "Sign in"
+msgstr ""
+
+#: src/login.py:20
+msgid "Forgot your password?"
+msgstr ""
+
+#: src/profile.py:8
+msgid "Profile updated successfully."
+msgstr ""
+
+#: src/settings.py:12
+msgid "Save changes"
+msgstr ""
+
+#: src/settings.py:18
+msgid "Cancel"
+msgstr ""
+
+#: src/dashboard.py:25
+msgid "You have no notifications."
+msgstr ""
+
+#: src/files.py:30
+msgid "Upload completed successfully."
+msgstr ""
+
+#: src/errors.py:5
+msgid "An unexpected error occurred. Please try again."
+msgstr ""
+
+#: src/cart.py:14
+msgid "Your shopping cart is empty."
+msgstr ""

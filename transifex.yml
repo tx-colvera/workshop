@@ -6,7 +6,7 @@ filters:
     source_file_dir: comms_templates/lyft/emails/en
     translation_files_expression: 'comms_templates/lyft/emails/<lang>/'
 
-    - filter_type: file
+  - filter_type: file
     # all supported i18n types: https://docs.transifex.com/formats
     file_format: po
     source_language: en
